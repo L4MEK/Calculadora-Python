@@ -58,7 +58,7 @@ for i in range(3):
   
 #Fahrenheit para Celsius
   if valor == "8":
-  	montante = float (input("Digite o valor em Graus Fahrenheit (°F): "))
-  	F_p_C= ((montante-32)*5)/9
-  	output = round(F_p_C, 3)
-  	print("{}ºF é {} ºC.".format(montante,output))
+  	quantia = float (input("Digite o valor em Graus Fahrenheit (°F): "))
+  	F_p_C= ((quantia-32)*5)/9
+  	saida = round(F_p_C, 3)
+  	print("{}ºF é {} ºC.".format(quantia,saida))
