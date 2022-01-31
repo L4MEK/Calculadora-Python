@@ -7,7 +7,7 @@ print(f"\n{nome}, Use /info se tiver dúvidas.\n")
 while True:
 	
 #Comandos
-  valor = (input("🔥\n[1] KM - MI\n[2] MI - KM\n[3] CM - IN\n[4] IN - CM\n[5] KG - LB\n[6] LB - KG\n[7] C - F\n[8] F - C\n😝 R= "))
+  valor = (input("🔥\n[1] KM - MI\n[2] MI - KM\n[3] CM - IN\n[4] IN - CM\n[5] KG - LB\n[6] LB - KG\n[7] C - F\n[8] F - C\n[9] Fechar 😥\n😝 R= "))
 #Ajuda sobre os comandos
   if valor == "/info":
   	print ("\nDigite um número e aperte enter [1-8]\nKM = Quilômetro\nMI = Milha\nCM = Centímetro\nIN = Polegada\nKG = Quilo\nLB = Libra\nC = Graus Celsius\nF = Fahrenheit\n\n⭐ O código sera executado 3 vezes e depois vai parar.\nÉ possível mudar isso na sétima linha do código.")
